@@ -1,0 +1,3 @@
+[submodule "themes/simplest"]
+	path = themes/simplest
+	url = https://github.com/dnxbf321/hexo-theme-simplest
