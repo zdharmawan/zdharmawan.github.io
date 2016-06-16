@@ -1,7 +1,9 @@
 ---
-tags: nodejs, rest, api
 title: Simple REST API with NodeJS
+tags: 'nodejs, rest, api'
+date: 2016-06-16 04:07:26
 ---
+
 A good backend starts with a good API being exposed to the outside world. 
 
 ##Prerequisite
