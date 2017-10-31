@@ -1,3 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Zul Dharmawan</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2017-10-03T10:20:00+02:00</updated><entry><title>My Brain Dump</title><link href="/introduction.html" rel="alternate"></link><published>2017-10-03T10:20:00+02:00</published><author><name>Zul Dharmawan</name></author><id>tag:,2017-10-03:introduction.html</id><summary type="html">&lt;p&gt;Most of the time, I discover something, either from the Internet or listening to smart people like yourself, mainly in the field of software engineering. Those knowledge just got washed away. Before you know, I have to re-Google it or ask the guy again to explain it to me. Thus, I will try to use this as a way to share that knowledge to others. If you can find a way to re-explain what you don't know to other people in a simplified manner, I think it means that you got it.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Zul Dharmawan</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2017-10-31T10:20:00+01:00</updated><entry><title>Installing Java 8 on Ubuntu</title><link href="/installing-java-8-on-ubuntu.html" rel="alternate"></link><published>2017-10-31T10:20:00+01:00</published><author><name>Zul Dharmawan</name></author><id>tag:,2017-10-31:installing-java-8-on-ubuntu.html</id><summary type="html">&lt;p&gt;Install Java 8 on Ubuntu:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create a folder to put JDK&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;mkdir /opt/jdk
+cd /opt
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;ol&gt;
+&lt;li&gt;Download the latest JDK:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;wget --header &amp;quot;Cookie: oraclelicense=accept-securebackup-cookie&amp;quot; http://download.oracle.com/otn-pub/java/jdk/8u152-b16/aa0333dd3019491ca4f6ddbe78cdb6d0/jdk-8u152-linux-x64.tar.gz
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;ol&gt;
+&lt;li&gt;Extract it&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;tar -zxf jdk-8u152-linux-x64.tar.gz -C /opt/jdk
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;ol&gt;
+&lt;li&gt;Set it as default&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;update-alternatives --install /usr/bin/java java /opt/jdk/jdk1.8.0_152/bin/java 100
+update-alternatives --install /usr/bin/javac javac /opt/jdk/jdk1.8.0_152/bin/javac 100
+&lt;/pre&gt;&lt;/div&gt;</summary><category term="java8"></category><category term="ubuntu"></category><category term="install"></category></entry><entry><title>My Brain Dump</title><link href="/introduction.html" rel="alternate"></link><published>2017-10-03T10:20:00+02:00</published><author><name>Zul Dharmawan</name></author><id>tag:,2017-10-03:introduction.html</id><summary type="html">&lt;p&gt;Most of the time, I discover something, either from the Internet or listening to smart people like yourself, mainly in the field of software engineering. Those knowledge just got washed away. Before you know, I have to re-Google it or ask the guy again to explain it to me. Thus, I will try to use this as a way to share that knowledge to others. If you can find a way to re-explain what you don't know to other people in a simplified manner, I think it means that you got it.&lt;/p&gt;
 &lt;p&gt;From time to time, I will also cover topics related to data science, which I am quite fond of. Actually, not really data science as they call it right now, perhaps. I just like to tell story with data. You can tell so much, with data presented in a nice fancy visualization. &lt;/p&gt;</summary><category term="blog"></category><category term="introduction"></category></entry></feed>
