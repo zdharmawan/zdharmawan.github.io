@@ -43,15 +43,15 @@
 <p class="tags">tagged <a href="/tag/java8.html">java8</a>, <a href="/tag/ubuntu.html">ubuntu</a>, <a href="/tag/install.html">install</a></p></div>		
 		<p>Install Java 8 on Ubuntu:</p>
 <ol>
-<li>Create a folder to put JDK</li>
-</ol>
-<div class="highlight"><pre><span></span>mkdir /opt/jdk  
-cd /opt
-</pre></div>
-
-
-<ol>
-<li>Download the latest JDK:</li>
+<li>
+<p>Create a folder to put JDK
+        :::bash
+        mkdir /opt/jdk<br />
+        cd /opt</p>
+</li>
+<li>
+<p>Download the latest JDK:</p>
+</li>
 </ol>
 <div class="highlight"><pre><span></span>wget --header &quot;Cookie: oraclelicense=accept-securebackup-cookie&quot; http://download.oracle.com/otn-pub/java/jdk/8u152-b16/aa0333dd3019491ca4f6ddbe78cdb6d0/jdk-8u152-linux-x64.tar.gz
 </pre></div>
@@ -65,11 +65,11 @@ cd /opt
 
 
 <ol>
-<li>Set it as default</li>
-</ol>
-<div class="highlight"><pre><span></span>update-alternatives --install /usr/bin/java java /opt/jdk/jdk1.8.0_152/bin/java 100  
-update-alternatives --install /usr/bin/javac javac /opt/jdk/jdk1.8.0_152/bin/javac 100
-</pre></div>	
+<li>Set it as default
+        :::bash
+        update-alternatives --install /usr/bin/java java /opt/jdk/jdk1.8.0_152/bin/java 100<br />
+        update-alternatives --install /usr/bin/javac javac /opt/jdk/jdk1.8.0_152/bin/javac 100</li>
+</ol>	
 
 	</article>
 
