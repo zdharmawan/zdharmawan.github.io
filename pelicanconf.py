@@ -34,7 +34,7 @@ DEFAULT_PAGINATION = 3
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-THEME = '/Users/310176470/Personal/github/pelican-themes/pelican-sober'
+THEME = '/Users/310176470/Personal/github/pelican-themes/pelican-simplegrey'
 
 MARKUP = ('md', 'ipynb')
 
