@@ -11,7 +11,7 @@ Install Java 8 on Ubuntu:
 1. Create a folder to put JDK
 
     ```
-    mkdir /opt/jdk\n
+    mkdir /opt/jdk    
     cd /opt
     ```
 
@@ -30,6 +30,6 @@ Install Java 8 on Ubuntu:
 4. Set it as default
 
     ```
-    update-alternatives --install /usr/bin/java java /opt/jdk/jdk1.8.0_152/bin/java 100\n
+    update-alternatives --install /usr/bin/java java /opt/jdk/jdk1.8.0_152/bin/java 100    
     update-alternatives --install /usr/bin/javac javac /opt/jdk/jdk1.8.0_152/bin/javac 100
     ```
