@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Zul Dharmawan</title><link href="/" rel="alternate"></link><link href="/feeds/programming.atom.xml" rel="self"></link><id>/</id><updated>2017-10-31T10:20:00+01:00</updated><entry><title>Xcode Helpful Shortcut Keys</title><link href="/xcode-helpful-shortcut-keys.html" rel="alternate"></link><published>2017-10-31T10:20:00+01:00</published><updated>2017-10-31T10:20:00+01:00</updated><author><name>Zul Dharmawan</name></author><id>tag:,2017-10-31:xcode-helpful-shortcut-keys.html</id><summary type="html">&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Build project&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Cmd + B
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Run test&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Cmd + U
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Show standard editor&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Cmd + Enter
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Open quickly (my mot used shorcut)&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Cmd + Shift + O
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Scroll to source&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Cmd + Shift + J
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Go back to standard editor&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Cmd + J
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Find usages&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Highlight class / method / etc
+Ctrl + 1 
+Select Caller
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Back and Forward&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Cmd &lt;span class="o"&gt;+&lt;/span&gt; Ctrl &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;-&lt;/span&gt;
+Cmd &lt;span class="o"&gt;+&lt;/span&gt; Ctrl &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="o"&gt;-&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;/ul&gt;</summary><category term="keys"></category><category term="mac osx"></category><category term="xcode"></category></entry></feed>
