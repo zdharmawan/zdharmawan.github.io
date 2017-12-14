@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Zul Dharmawan</title><link href="/" rel="alternate"></link><link href="/feeds/programming.atom.xml" rel="self"></link><id>/</id><updated>2017-10-31T10:20:00+01:00</updated><entry><title>Xcode Helpful Shortcut Keys</title><link href="/xcode-helpful-shortcut-keys.html" rel="alternate"></link><published>2017-10-31T10:20:00+01:00</published><updated>2017-10-31T10:20:00+01:00</updated><author><name>Zul Dharmawan</name></author><id>tag:,2017-10-31:xcode-helpful-shortcut-keys.html</id><summary type="html">&lt;ul&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Zul Dharmawan</title><link href="/" rel="alternate"></link><link href="/feeds/programming.atom.xml" rel="self"></link><id>/</id><updated>2017-12-14T10:20:00+01:00</updated><entry><title>Xcode Helpful Shortcut Keys</title><link href="/xcode-helpful-shortcut-keys.html" rel="alternate"></link><published>2017-12-14T10:20:00+01:00</published><updated>2017-12-14T10:20:00+01:00</updated><author><name>Zul Dharmawan</name></author><id>tag:,2017-12-14:xcode-helpful-shortcut-keys.html</id><summary type="html">&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Build project&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Cmd + B
